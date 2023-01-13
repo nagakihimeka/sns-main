@@ -10,6 +10,7 @@
                 <div class="panel-body">
                     @if (session('status'))
                         <div class="alert alert-success">
+                        <p>お雑煮</p>
                             {{ session('status') }}
                         </div>
                     @endif
