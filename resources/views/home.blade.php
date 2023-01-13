@@ -11,6 +11,7 @@
                     @if (session('status'))
                         <div class="alert alert-success">
                         <p>お雑煮</p>
+                        <p>お餅</p>
                             {{ session('status') }}
                         </div>
                     @endif
